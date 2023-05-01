@@ -1,0 +1,11 @@
+<p>Child Component</p>
+
+<!-- <p>
+  My Angular Version is {{angularVersion}}
+</p> -->
+
+<!-- <button type="button" class="btn btn-primary btn-sm" (click)="passDataToParent($event)">Pass Data to Parent</button> -->
+<div *ngFor="let employee of data;">
+    <span>{{employee.empName}}</span>
+    <span>{{employee.department}}</span>
+</div>
